@@ -4,4 +4,4 @@ engine = pyttsx3.init()
 engine.say('This is Greo')
 engine.runAndWait()
 
-print("THis is Griot")
+print("This is Griot")
