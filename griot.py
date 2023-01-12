@@ -54,9 +54,10 @@ def wishMe():
 		speak("Good Afternoon!") 
 
 	else: 
-		speak("Good Evening!") 
+		speak("Good Evening, why are you up so late?")
 
-	speak("I am your assistant. Please tell me how may I help you") 
+
+	speak("I am Greo. what do you need?") 
 
 # Function to take command 
 def takeCommand(): 
@@ -73,8 +74,8 @@ def takeCommand():
 		print(f"User said: {query}\n") 
 
 	except Exception as e: 
-		# print(e) 
-		print("Say that again please...") 
+		# speak(e) 
+		speak("Say that again please...") 
 		return "None"
 	return query 
 
@@ -101,4 +102,6 @@ if __name__ == "__main__":
 
 		elif 'open stackoverflow' in query: 
 			webbrowser.open("stackoverflow.com")
+		elif 'open GitHub' in query:
+			webbrowser.open("github.com")
 #"""
