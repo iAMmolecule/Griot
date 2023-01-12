@@ -1,14 +1,9 @@
 # Griot 2.0
  My version of AI from Black Panther: Wakanda Forever, Griot
  
-![download](https://user-images.githubusercontent.com/64157481/209423032-33e18d0f-3d2b-49cb-ada1-a46424a6233b.jpg)
-
-### About Griot 2.0
-
-AI_Personal_Voice_Assistant_Using_Python
-A project to build an AI voice assistant using Python . The Voice assistant interacts with the humans to perform basic tasks.
-
 # About Griot 2.0 :
+
+![download](https://user-images.githubusercontent.com/64157481/209423032-33e18d0f-3d2b-49cb-ada1-a46424a6233b.jpg)
 
 Griot is an AI personal voice assistant service built using Pychram. It can understand human speech and perform basic task designed by the client.
 
