@@ -17,14 +17,17 @@ def sound_record():
 data = ""
 
     #attempt to recognize the spoken words
-try: 
+def recognize_audio(audio):
+    try: 
         data = r.recognize_google(audio)
         print("You said: "+ data)
-except sr.UnknownValueError:
+    except sr.UnknownValueError:
         print("I could not understand audio")
-except sr.RequestError:
+    except sr.RequestError:
         print("Network Error")
-return data
+    return data
+
+result  = recognize_audio(audio)
 
 #receive commands and execute action
 def assistant(data):
