@@ -4,7 +4,34 @@ import pyttsx3
 import datetime 
 import wikipedia 
 import webbrowser
-import os 
+import os
+ 
+"""
+def take_input():
+  voice_input = input('What can I help you with? ')
+  return voice_input
+
+def process_input(input):
+  if 'open' in input:
+    open_url(input)
+  elif 'listen' in input:
+    search_youtube(input)
+  else:
+    print('Sorry, I don\'t understand what you said.')
+
+def open_url(input):
+  url = input.split()[-1]
+  webbrowser.open(url)
+
+def search_youtube(input):
+  keyword = input.split()[-1]
+  webbrowser.open('https://www.youtube.com/results?search_query=' + keyword)
+
+
+while True:
+  take_input()
+  process_input(take_input())
+"""
 
 # Initializing the speech engine 
 engine = pyttsx3.init('sapi5') 
@@ -74,3 +101,4 @@ if __name__ == "__main__":
 
 		elif 'open stackoverflow' in query: 
 			webbrowser.open("stackoverflow.com")
+#"""
