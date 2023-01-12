@@ -35,7 +35,7 @@ Ask geographical and computational questions
 	
 Predict Weather of different Cities
 
- 	Human: Hey Griot , What is the weather likely now in Kerala?
+ 	Human: Hey Griot , What is the weather likely now in New Orleans?
 	
 Abstarct necessary information from wikipedia
 
