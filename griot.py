@@ -72,7 +72,7 @@ if __name__=='__main__':
 if "good bye" in statement or "ok bye" in statement or "stop" in statement:
             speak('your personal assistant Griot is shutting down,Good bye')
             print('your personal assistant Griot is shutting down,Good bye')
-            break
+break
 
 if 'wikipedia' in statement:
             speak('Searching Wikipedia...')
