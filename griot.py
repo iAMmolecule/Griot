@@ -89,3 +89,24 @@ elif 'open gmail' in statement:
             speak("Google Mail open now")
             time.sleep(5)
 
+elif 'time' in statement:
+            strTime=datetime.datetime.now().strftime("%H:%M:%S")
+            speak(f"the time is {strTime}")
+            
+elif "camera" in statement or "take a photo" in statement:
+            ec.capture(0,"robo camera","img.jpg")
+
+elif 'search'  in statement:
+            statement = statement.replace("search", "")
+            webbrowser.open_new_tab(statement)
+            time.sleep(5)
+
+elif 'ask' in statement:
+            speak('I can answer to computational and geographical questions  and what question do you want to ask now')
+            question=takeCommand()
+            app_id="Paste your unique ID here "
+            client = wolframalpha.Client('R2K75H-7ELALHR35X')
+            res = client.query(question)
+            answer = next(res.results).text
+            speak(answer)
+            print(answer)
