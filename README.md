@@ -8,8 +8,7 @@
 AI_Personal_Voice_Assistant_Using_Python
 A project to build an AI voice assistant using Python . The Voice assistant interacts with the humans to perform basic tasks.
 
-About Griot 2.0 :
-AI FINAL
+# About Griot 2.0 :
 
 Griot is an AI personal voice assistant service built using Pychram. It can understand human speech and perform basic task designed by the client.
 
@@ -17,7 +16,7 @@ When the user specify the appropriate trigger words , The Griot gets activated a
 
 Griot AI Voice assistant:"Loading your personal Assistant Griot.... Hello, Good Morning" (Greets the user according to time)
 
-The implemented Voice assistant can perform the following tasks:
+# The implemented Voice assistant can perform the following tasks:
 Opens a wepage : Youtube , G-Mail , Google Chrome , StackOverflow
 
  	Human : Hey Griot, Open Youtube
